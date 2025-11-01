@@ -214,6 +214,152 @@
 
   <footer>© 2025 Kansas HS Football Rankings — Inspired by ESPN</footer>
 </body>
+</html>      font-size: 1.1em;
+    }
+
+    .player-img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .player-name {
+      display: flex;
+      align-items: center;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      padding: 25px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>Top 100 Kansas HS Football Player Rankings 2025</header>
+
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Player</th>
+          <th>Position</th>
+          <th>School</th>
+          <th>Class</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Sample top players -->
+        <tr>
+          <td class="rank">1</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            John Davis
+          </td>
+          <td>QB</td>
+          <td>Derby HS</td>
+          <td>2025</td>
+          <td class="stars">★★★★★</td>
+        </tr>
+
+        <tr>
+          <td class="rank">2</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            Marcus Allen
+          </td>
+          <td>WR</td>
+          <td>Blue Valley North</td>
+          <td>2025</td>
+          <td class="stars">★★★★</td>
+        </tr>
+
+        <tr>
+          <td class="rank">3</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            Jalen Smith
+          </td>
+          <td>RB</td>
+          <td>Andover Central</td>
+          <td>2026</td>
+          <td class="stars">★★★★</td>
+        </tr>
+
+        <tr>
+          <td class="rank">4</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            Tyrese Carter
+          </td>
+          <td>LB</td>
+          <td>Olathe East</td>
+          <td>2025</td>
+          <td class="stars">★★★★</td>
+        </tr>
+
+        <tr>
+          <td class="rank">5</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            Jordan Williams
+          </td>
+          <td>DB</td>
+          <td>Wichita Northwest</td>
+          <td>2026</td>
+          <td class="stars">★★★★</td>
+        </tr>
+
+        <tr>
+          <td class="rank">6</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            Chris Walker
+          </td>
+          <td>DE</td>
+          <td>Manhattan HS</td>
+          <td>2027</td>
+          <td class="stars">★★★</td>
+        </tr>
+
+        <!-- Example freshmen -->
+        <tr>
+          <td class="rank">95</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            Tyler Green
+          </td>
+          <td>RB</td>
+          <td>Lawrence HS</td>
+          <td>2029</td>
+          <td class="stars">★★★</td>
+        </tr>
+
+        <!-- YOU -->
+        <tr>
+          <td class="rank">100</td>
+          <td class="player-name">
+            <img class="player-img" src="https://via.placeholder.com/45" alt="">
+            <strong>JaVon Latney</strong>
+          </td>
+          <td>WR</td>
+          <td>Andover Central HS</td>
+          <td>2029</td>
+          <td class="stars">★★★★</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>© 2025 Kansas HS Football Rankings — Inspired by ESPN</footer>
+</body>
 </html>      background-color: #fff;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
